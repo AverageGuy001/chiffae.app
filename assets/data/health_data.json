@@ -1,0 +1,87 @@
+{
+  "profiles": [
+    {
+      "id": "dentist",
+      "title": "Dentiste",
+      "scope": ["Toothache", "Gum bleeding", "Jaw swelling", "Broken tooth"],
+      "urgency_level": "Medium"
+    },
+    {
+      "id": "generalist",
+      "title": "Généraliste",
+      "scope": ["Fever", "Headache", "Flu symptoms", "General fatigue", "Stomach ache"],
+      "urgency_level": "Low"
+    },
+    {
+      "id": "pediatrician",
+      "title": "Pédiatre",
+      "scope": ["Child fever", "Infant cough", "Pediatric rash", "Childhood vaccinations"],
+      "urgency_level": "High (for infants)"
+    }
+  ],
+  "pharmacies": [
+    {
+      "name": "Pharmacie Mehdia",
+      "district": "Mehdia Plage",
+      "lat": 34.258,
+      "lng": -6.666,
+      "isGarde": false,
+      "phone": "+212 5 37 00 11 22",
+      "hours": "08:00 – 22:00",
+      "stock": ["Amoxicilline", "Paracétamol", "Doliprane"]
+    },
+    {
+      "name": "Pharmacie Bir Rami",
+      "district": "Bir Rami Est",
+      "lat": 34.234,
+      "lng": -6.568,
+      "isGarde": true,
+      "phone": "+212 5 37 00 33 44",
+      "hours": "24/7 (Garde)",
+      "stock": ["Aspirine", "Statine", "Spasfon"]
+    },
+    {
+      "name": "Pharmacie Saknia",
+      "district": "Hay Saknia",
+      "lat": 34.275,
+      "lng": -6.582,
+      "isGarde": false,
+      "phone": "+212 5 37 00 55 66",
+      "hours": "09:00 – 21:00",
+      "stock": ["Sirop Toux", "Vitamine C", "Advil Children"]
+    },
+    {
+      "name": "Pharmacie Al Amal",
+      "district": "Centre Ville",
+      "lat": 34.265,
+      "lng": -6.575,
+      "isGarde": true,
+      "phone": "+212 5 37 00 77 88",
+      "hours": "24/7 (Garde)",
+      "stock": ["Oméprazole", "Ventoline", "Dafalgan"]
+    }
+  ],
+  "specialized_centers": [
+    {
+      "name": "Hôpital Al Idrissi (Provincial)",
+      "type": "Public Hospital / Emergencies",
+      "lat": 34.256,
+      "lng": -6.588,
+      "services": ["Emergency Room", "General Surgery", "Radiology"]
+    },
+    {
+      "name": "Laboratoire d'Analyses Mimosa",
+      "type": "Medical Analysis Lab",
+      "lat": 34.261,
+      "lng": -6.581,
+      "services": ["Blood Test", "PCR", "Biopsy"]
+    },
+    {
+      "name": "Clinique Tazi",
+      "type": "Private Clinic / Analysis",
+      "lat": 34.259,
+      "lng": -6.584,
+      "services": ["Multi-specialty", "Medical Imaging", "Urgent Care"]
+    }
+  ]
+}
